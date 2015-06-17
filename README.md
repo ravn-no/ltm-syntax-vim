@@ -17,11 +17,11 @@ You can then activate the hightlighting in vim with
 If you want to automatically highlight .ltm-files, create a file called
 "filetype.vim" in your .vim directory with the following contents:
 
-"------
-augroup filetypedetect
-au BufNewFile,BufRead *.ltm                 setf ltm
-augroup END
-"------
+    "------
+    augroup filetypedetect
+      au BufNewFile,BufRead *.ltm                 setf ltm
+    augroup END
+    "------
 
 Have fun!
 
